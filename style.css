@@ -44,7 +44,12 @@ tr:nth-child(even) {
   font-size: 15px;
 }
 #booksearch{
- font-size: 15px;
+ font-size: 13px;
  width: 100px;
+}
+
+.sortdiv{
+   margin-left: 140px;
+   margin-right: auto;
 }
 

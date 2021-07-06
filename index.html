@@ -86,16 +86,20 @@
     </tr>
     </tbody>
   </table>
+
+
  <div class="container-button">
-   <h4>Search books according to Book Id</h4>
-  <input id="booksearch" type="text" placeholder="Enter Book Id">
+   <h3>Search Books</h3>
+  <input id="booksearch" type="text" placeholder="Enter Book Id"><br><br>
   <button type="submit" id="button" onclick="bookSearch()"> Search</button>
   <p id="book_id"></p>
   </div>
 
-   
-   <h3>Sort Table</h3>
+  <div class="sortdiv">
+    <h3>Sort Table</h3>
+    <input id="colnumber" type="text" placeholder="Enter column No"><br><br>
+    <button id="button" onclick="sortAsc()">Asc</button>
+  </div>  
 
-<p><button onclick="sortTable()">Sort</button></p>
   </body>
 </html>
